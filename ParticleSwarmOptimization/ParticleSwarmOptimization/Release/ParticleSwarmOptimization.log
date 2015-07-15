@@ -1,0 +1,53 @@
+﻿生成启动时间为 2015/7/15 21:44:51。
+     1>项目“C:\Users\lenovo\Documents\Visual Studio 2012\Projects\ParticleSwarmOptimization\ParticleSwarmOptimization\ParticleSwarmOptimization.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt benchmarkFunc.cpp binTreeNetwork.cpp finalResult.cpp fullyConnectedNetwork.cpp functions.cpp hierarchyNetwork.cpp HierarchyPSO.cpp main.cpp network.cpp node.cpp particle.cpp PartlyFeedbackPSO.cpp performance.cpp PSO.cpp randomNumGenerator.cpp ScaleFreeNetwork.cpp standardPSO.cpp
+         benchmarkFunc.cpp
+         binTreeNetwork.cpp
+         finalResult.cpp
+         fullyConnectedNetwork.cpp
+         functions.cpp
+         hierarchyNetwork.cpp
+     1>hierarchyNetwork.cpp(5): warning C4101: “j”: 未引用的局部变量
+     1>hierarchyNetwork.cpp(56): warning C4101: “j”: 未引用的局部变量
+     1>hierarchyNetwork.cpp(110): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         HierarchyPSO.cpp
+         main.cpp
+         network.cpp
+         node.cpp
+         particle.cpp
+         PartlyFeedbackPSO.cpp
+         performance.cpp
+         PSO.cpp
+         randomNumGenerator.cpp
+         ScaleFreeNetwork.cpp
+         standardPSO.cpp
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\PSOFramework.res" PSOFramework.rc 
+       Link:
+         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Documents\Visual Studio 2012\Projects\ParticleSwarmOptimization\Release\PSOFramework.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\Documents\Visual Studio 2012\Projects\ParticleSwarmOptimization\Release\PSOFramework.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Documents\Visual Studio 2012\Projects\ParticleSwarmOptimization\Release\PSOFramework.lib" /MACHINE:X86 /SAFESEH Release\PSOFramework.res
+         Release\benchmarkFunc.obj
+         Release\binTreeNetwork.obj
+         Release\finalResult.obj
+         Release\fullyConnectedNetwork.obj
+         Release\functions.obj
+         Release\hierarchyNetwork.obj
+         Release\HierarchyPSO.obj
+         Release\main.obj
+         Release\network.obj
+         Release\node.obj
+         Release\particle.obj
+         Release\PartlyFeedbackPSO.obj
+         Release\performance.obj
+         Release\PSO.obj
+         Release\randomNumGenerator.obj
+         Release\ScaleFreeNetwork.obj
+         Release\standardPSO.obj
+         正在生成代码
+         已完成代码的生成
+         ParticleSwarmOptimization.vcxproj -> C:\Users\lenovo\Documents\Visual Studio 2012\Projects\ParticleSwarmOptimization\Release\PSOFramework.exe
+     1>已完成生成项目“C:\Users\lenovo\Documents\Visual Studio 2012\Projects\ParticleSwarmOptimization\ParticleSwarmOptimization\ParticleSwarmOptimization.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.45
