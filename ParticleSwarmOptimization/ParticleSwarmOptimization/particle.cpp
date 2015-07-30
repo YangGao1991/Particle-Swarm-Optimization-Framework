@@ -15,6 +15,8 @@ particle::particle()
 
 	//for partialFeedbackPSO
 	feedbackNeighborsID.clear();
+
+	lbest_FIPS.fill(0);
 }
 
 particle::~particle()
@@ -36,6 +38,7 @@ void particle::reset()
 
 	//for partialFeedbackPSO
 	feedbackNeighborsID.clear();
-}
 
+	lbest_FIPS.fill(0);
+}
 

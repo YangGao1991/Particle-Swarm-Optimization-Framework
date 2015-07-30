@@ -1,12 +1,12 @@
 #include "PSOalgorithms.h"
 
-#include "ScaleFreeNetwork.h"
+#include "ringNetwork.h"
 #include <fstream>
 
 using namespace std;
 
 int main()
 {
-	runPFPSO();
+	runMSPSO();
 	return 0;
 }

@@ -51,6 +51,9 @@
     <ClInclude Include="finalResult.h">
       <Filter>头文件\PSO</Filter>
     </ClInclude>
+    <ClInclude Include="HierarchyPSO.h">
+      <Filter>头文件\PSO\algorithms</Filter>
+    </ClInclude>
     <ClInclude Include="PSO.h">
       <Filter>头文件\PSO</Filter>
     </ClInclude>
@@ -66,6 +69,9 @@
     <ClInclude Include="network.h">
       <Filter>头文件\network</Filter>
     </ClInclude>
+    <ClInclude Include="hierarchyNetwork.h">
+      <Filter>头文件\network</Filter>
+    </ClInclude>
     <ClInclude Include="node.h">
       <Filter>头文件\network</Filter>
     </ClInclude>
@@ -75,6 +81,9 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PartlyFeedbackPSO.h">
+      <Filter>头文件\PSO\algorithms</Filter>
+    </ClInclude>
     <ClInclude Include="ScaleFreeNetwork.h">
       <Filter>头文件\network</Filter>
     </ClInclude>
@@ -82,6 +91,15 @@
       <Filter>头文件\network</Filter>
     </ClInclude>
     <ClInclude Include="fullyConnectedNetwork.h">
+      <Filter>头文件\network</Filter>
+    </ClInclude>
+    <ClInclude Include="FIPS.h">
+      <Filter>头文件\PSO\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="MixedStrategyPSO.h">
+      <Filter>头文件\PSO\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ringNetwork.h">
       <Filter>头文件\network</Filter>
     </ClInclude>
   </ItemGroup>
@@ -110,8 +128,14 @@
     <ClCompile Include="PSO.cpp">
       <Filter>源文件\PSO</Filter>
     </ClCompile>
+    <ClCompile Include="HierarchyPSO.cpp">
+      <Filter>源文件\PSO\algorithms</Filter>
+    </ClCompile>
     <ClCompile Include="standardPSO.cpp">
       <Filter>源文件\PSO\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="hierarchyNetwork.cpp">
+      <Filter>源文件\network</Filter>
     </ClCompile>
     <ClCompile Include="network.cpp">
       <Filter>源文件\network</Filter>
@@ -122,10 +146,22 @@
     <ClCompile Include="binTreeNetwork.cpp">
       <Filter>源文件\network</Filter>
     </ClCompile>
+    <ClCompile Include="PartlyFeedbackPSO.cpp">
+      <Filter>源文件\PSO\algorithms</Filter>
+    </ClCompile>
     <ClCompile Include="ScaleFreeNetwork.cpp">
       <Filter>源文件\network</Filter>
     </ClCompile>
     <ClCompile Include="fullyConnectedNetwork.cpp">
+      <Filter>源文件\network</Filter>
+    </ClCompile>
+    <ClCompile Include="FIPS.cpp">
+      <Filter>源文件\PSO\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="MixedStrategyPSO.cpp">
+      <Filter>源文件\PSO\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="ringNetwork.cpp">
       <Filter>源文件\network</Filter>
     </ClCompile>
   </ItemGroup>

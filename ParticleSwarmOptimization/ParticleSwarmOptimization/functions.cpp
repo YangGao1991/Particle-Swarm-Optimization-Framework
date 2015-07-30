@@ -72,15 +72,18 @@ benchmarkFunc ackley(-32,32,0.05);
 
 double AckleyCalc(array<double,Dimension> x)
 {
-	double fx=0;
-	double fx1=0,fx2=0;
-	int d;
-	for(d=0;d<Dimension;d++){
-		fx1=fx1+pow(x[d],2);
-		fx2=fx2+cos(M_2PI*x[d]);
+	double f=0,f1=0,f2=0;
+	int i;
+	for (i=0;i<=Dimension-1;i++)
+	{
+		f1=f1+pow(x[i],2);
+		f2=f2+cos(2*PI*x[i]);
 	}
-	fx=-20*exp(-0.2*sqrt(fx1/Dimension))-exp(fx2/Dimension)+20+M_E;
-	return fx;
+	f1=f1/Dimension;
+	f2=f2/Dimension;
+	f1=-0.2*sqrt(f1);
+	f=-20*exp(f1)-exp(f2)+20+exp((double)1);
+	return f;
 }
 
 benchmarkFunc weierstrass(-0.5,0.5,0.01);

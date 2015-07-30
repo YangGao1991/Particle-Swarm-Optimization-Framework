@@ -24,6 +24,11 @@ public:
 	//for partialFeedbackPSO
 	vector<int> feedbackNeighborsID;
 
+	//for FIPS
+	array<double,Dimension> lbest_FIPS;
+
+	int isFIPS;
+
 	void reset();
 
 protected:

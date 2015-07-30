@@ -3,3 +3,7 @@
 #include "HierarchyPSO.h"
 
 #include "PartlyFeedbackPSO.h"
+
+#include "FIPS.h"
+
+#include "MixedStrategyPSO.h"

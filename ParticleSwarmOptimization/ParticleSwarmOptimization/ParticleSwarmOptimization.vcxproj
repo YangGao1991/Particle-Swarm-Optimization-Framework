@@ -14,18 +14,24 @@
     <ClInclude Include="benchmarkFunc.h" />
     <ClInclude Include="binTreeNetwork.h" />
     <ClInclude Include="finalResult.h" />
+    <ClInclude Include="FIPS.h" />
     <ClInclude Include="fullyConnectedNetwork.h" />
     <ClInclude Include="functions.h" />
+    <ClInclude Include="hierarchyNetwork.h" />
+    <ClInclude Include="HierarchyPSO.h" />
+    <ClInclude Include="MixedStrategyPSO.h" />
     <ClInclude Include="network.h" />
     <ClInclude Include="Networks.h" />
     <ClInclude Include="node.h" />
     <ClInclude Include="parameters.h" />
     <ClInclude Include="particle.h" />
+    <ClInclude Include="PartlyFeedbackPSO.h" />
     <ClInclude Include="performance.h" />
     <ClInclude Include="PSO.h" />
     <ClInclude Include="PSOalgorithms.h" />
     <ClInclude Include="randomNumGenerator.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="ringNetwork.h" />
     <ClInclude Include="ScaleFreeNetwork.h" />
     <ClInclude Include="standardPSO.h" />
   </ItemGroup>
@@ -33,15 +39,21 @@
     <ClCompile Include="benchmarkFunc.cpp" />
     <ClCompile Include="binTreeNetwork.cpp" />
     <ClCompile Include="finalResult.cpp" />
+    <ClCompile Include="FIPS.cpp" />
     <ClCompile Include="fullyConnectedNetwork.cpp" />
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="hierarchyNetwork.cpp" />
+    <ClCompile Include="HierarchyPSO.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MixedStrategyPSO.cpp" />
     <ClCompile Include="network.cpp" />
     <ClCompile Include="node.cpp" />
     <ClCompile Include="particle.cpp" />
+    <ClCompile Include="PartlyFeedbackPSO.cpp" />
     <ClCompile Include="performance.cpp" />
     <ClCompile Include="PSO.cpp" />
     <ClCompile Include="randomNumGenerator.cpp" />
+    <ClCompile Include="ringNetwork.cpp" />
     <ClCompile Include="ScaleFreeNetwork.cpp" />
     <ClCompile Include="standardPSO.cpp" />
   </ItemGroup>

@@ -4,5 +4,7 @@
 #include <math.h>
 
 
-network binTreeConstruct();
+network TreeConstruct(int);
+
+network TreeWithAddedEdgesConstruct(int,int);
 

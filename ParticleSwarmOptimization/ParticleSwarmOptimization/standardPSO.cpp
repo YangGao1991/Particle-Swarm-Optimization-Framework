@@ -96,7 +96,7 @@ performance standardPSO(network _network,int funcID)
 void runSDPSO()
 {
 	network inputNetwork;
-	ofstream outputResults("resultsOfSDPSO.csv");
+	ofstream outputResults("resultsOfSDPSO.txt");
 	finalResult SphereResult;
 	finalResult RosenbrockResult;
 	finalResult RastriginResult;

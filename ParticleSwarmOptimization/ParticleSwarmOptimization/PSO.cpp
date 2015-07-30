@@ -1,5 +1,15 @@
 #include "PSO.h"
 
+//extern benchmarkFunc sphere;
+//extern benchmarkFunc rosenbrock;
+//extern benchmarkFunc rastrigin;
+//extern benchmarkFunc qua;
+//extern benchmarkFunc griwank;
+//extern benchmarkFunc ackley;
+//extern benchmarkFunc weierstrass;
+//extern benchmarkFunc noncontinuousRas;
+//extern benchmarkFunc schwefel_P2_22;
+//extern benchmarkFunc noise_1;
 
 /**< the swarm of PSO */
 particle swarm[ParticleAmount];

@@ -1,10 +1,11 @@
-﻿生成启动时间为 2015/7/15 21:44:51。
+﻿生成启动时间为 2015/7/29 22:34:15。
      1>项目“C:\Users\lenovo\Documents\Visual Studio 2012\Projects\ParticleSwarmOptimization\ParticleSwarmOptimization\ParticleSwarmOptimization.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
-         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt benchmarkFunc.cpp binTreeNetwork.cpp finalResult.cpp fullyConnectedNetwork.cpp functions.cpp hierarchyNetwork.cpp HierarchyPSO.cpp main.cpp network.cpp node.cpp particle.cpp PartlyFeedbackPSO.cpp performance.cpp PSO.cpp randomNumGenerator.cpp ScaleFreeNetwork.cpp standardPSO.cpp
+         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt benchmarkFunc.cpp binTreeNetwork.cpp finalResult.cpp FIPS.cpp fullyConnectedNetwork.cpp functions.cpp hierarchyNetwork.cpp HierarchyPSO.cpp main.cpp MixedStrategyPSO.cpp network.cpp node.cpp particle.cpp PartlyFeedbackPSO.cpp performance.cpp PSO.cpp randomNumGenerator.cpp ringNetwork.cpp ScaleFreeNetwork.cpp standardPSO.cpp
          benchmarkFunc.cpp
          binTreeNetwork.cpp
          finalResult.cpp
+         FIPS.cpp
          fullyConnectedNetwork.cpp
          functions.cpp
          hierarchyNetwork.cpp
@@ -13,6 +14,7 @@
      1>hierarchyNetwork.cpp(110): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
          HierarchyPSO.cpp
          main.cpp
+         MixedStrategyPSO.cpp
          network.cpp
          node.cpp
          particle.cpp
@@ -20,6 +22,7 @@
          performance.cpp
          PSO.cpp
          randomNumGenerator.cpp
+         ringNetwork.cpp
          ScaleFreeNetwork.cpp
          standardPSO.cpp
        ResourceCompile:
@@ -29,11 +32,13 @@
          Release\benchmarkFunc.obj
          Release\binTreeNetwork.obj
          Release\finalResult.obj
+         Release\FIPS.obj
          Release\fullyConnectedNetwork.obj
          Release\functions.obj
          Release\hierarchyNetwork.obj
          Release\HierarchyPSO.obj
          Release\main.obj
+         Release\MixedStrategyPSO.obj
          Release\network.obj
          Release\node.obj
          Release\particle.obj
@@ -41,6 +46,7 @@
          Release\performance.obj
          Release\PSO.obj
          Release\randomNumGenerator.obj
+         Release\ringNetwork.obj
          Release\ScaleFreeNetwork.obj
          Release\standardPSO.obj
          正在生成代码
@@ -50,4 +56,4 @@
 
 生成成功。
 
-已用时间 00:00:05.45
+已用时间 00:00:07.17
